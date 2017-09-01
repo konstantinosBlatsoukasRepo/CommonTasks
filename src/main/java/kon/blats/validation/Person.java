@@ -14,6 +14,7 @@ import java.util.Date;
  */
 @Getter
 @Setter
+@CheckSalaryEven
 public class Person {
     @NotNull
     private String name;

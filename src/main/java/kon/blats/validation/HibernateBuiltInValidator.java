@@ -21,6 +21,25 @@ import static org.junit.Assert.assertEquals;
 public class HibernateBuiltInValidator {
 
     @Test
+    public void testBuiltInValidationsCustomAnnotation() throws ParseException {
+        Person customPerson = new Person();
+        customPerson .setAge(31);
+        customPerson .setSalary(1201);
+        customPerson .setName("Konstantinos");
+        customPerson .setSurname("Blatsoukas");
+        SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy");
+        String myBirthDate = "10-03-1986";
+        Date date = dateFormat.parse(myBirthDate);
+        customPerson .setDateOfBirth(date);
+
+        ValidatorFactory validatorFactory = Validation.buildDefaultValidatorFactory();
+        Validator validator = validatorFactory.getValidator();
+        Set<ConstraintViolation<Person>> violations = validator.validate(customPerson);
+        int totalViolations = violations.size();
+        assertEquals(0, totalViolations);
+    }
+
+    @Test
     public void testBuiltInValidationsNoViolationsOccurred() throws ParseException {
         Person konstantinosBlatsoukas = new Person();
         konstantinosBlatsoukas.setAge(31);
@@ -58,4 +77,5 @@ public class HibernateBuiltInValidator {
         assertEquals(1, totalViolations);
     }
 }
+
 
