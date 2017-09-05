@@ -23,16 +23,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="54" column="30" lean-forward="false" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/kon/blats/validation/Person.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -48,8 +38,8 @@
       <file leaf-file-name="ScannerReader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/kon/blats/files/read/ScannerReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="459">
+              <caret line="27" column="108" lean-forward="false" selection-start-line="27" selection-start-column="97" selection-end-line="27" selection-end-column="108" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StreamReader.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StreamReader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/kon/blats/files/read/StreamReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="306">
+              <caret line="18" column="79" lean-forward="false" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,12 +59,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReaderTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ReaderTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/kon/blats/files/read/ReaderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="442">
+              <caret line="26" column="122" lean-forward="false" selection-start-line="26" selection-start-column="122" selection-end-line="26" selection-end-column="122" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -177,14 +169,16 @@
         <option value="$PROJECT_DIR$/src/main/java/kon/blats/files/generate/GeneratorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/kon/blats/files/read/ScannerReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/kon/blats/files/read/StreamReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kon/blats/files/read/JavaSevenReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/kon/blats/files/read/ReaderTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="908" />
-    <option name="width" value="1019" />
-    <option name="height" value="1047" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -378,32 +372,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.ReaderTest.readerTest">
-    <configuration default="false" name="HibernateBuiltInValidator.testBuiltInValidationsCustomAnnotation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="kon.blats.validation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="commontasks" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="kon.blats.validation" />
-      <option name="MAIN_CLASS_NAME" value="kon.blats.validation.HibernateBuiltInValidator" />
-      <option name="METHOD_NAME" value="testBuiltInValidationsCustomAnnotation" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="false" name="FileUploaderTest.fileUploaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -490,6 +458,32 @@
       <option name="MAIN_CLASS_NAME" value="kon.blats.files.read.ReaderTest" />
       <option name="METHOD_NAME" value="readerTest" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ReaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="kon.blats.files.read.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="commontasks" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="kon.blats.files.read" />
+      <option name="MAIN_CLASS_NAME" value="kon.blats.files.read.ReaderTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -707,19 +701,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.HibernateBuiltInValidator.testBuiltInValidationsCustomAnnotation" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.FileUploaderTest.fileUploaderTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.App" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.GeneratorTest.generatorTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ReaderTest.readerTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.FileUploaderTest.fileUploaderTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.App" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.GeneratorTest.generatorTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ReaderTest.readerTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ReaderTest" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.ReaderTest.readerTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.GeneratorTest.generatorTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.App" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FileUploaderTest.fileUploaderTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.HibernateBuiltInValidator.testBuiltInValidationsCustomAnnotation" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ReaderTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.GeneratorTest.generatorTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.App" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FileUploaderTest.fileUploaderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -737,39 +731,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GeneratorTest_generatorTest - 2017.09.05 at 13h 02m 13s.xml">
-      <configuration name="GeneratorTest.generatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GeneratorTest_generatorTest - 2017.09.05 at 13h 03m 05s.xml">
-      <configuration name="GeneratorTest.generatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GeneratorTest_generatorTest - 2017.09.05 at 13h 03m 29s.xml">
-      <configuration name="GeneratorTest.generatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GeneratorTest_generatorTest - 2017.09.05 at 13h 04m 34s.xml">
-      <configuration name="GeneratorTest.generatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReaderTest_readerTest - 2017.09.05 at 13h 11m 24s.xml">
+    <history-entry file="ReaderTest_readerTest - 2017.09.05 at 15h 22m 25s.xml">
       <configuration name="ReaderTest.readerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReaderTest_readerTest - 2017.09.05 at 13h 11m 31s.xml">
+    <history-entry file="ReaderTest_readerTest - 2017.09.05 at 15h 22m 40s.xml">
       <configuration name="ReaderTest.readerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReaderTest_readerTest - 2017.09.05 at 13h 13m 42s.xml">
+    <history-entry file="ReaderTest_readerTest - 2017.09.05 at 15h 23m 01s.xml">
       <configuration name="ReaderTest.readerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReaderTest_readerTest - 2017.09.05 at 13h 13m 56s.xml">
+    <history-entry file="ReaderTest_readerTest - 2017.09.05 at 15h 23m 21s.xml">
       <configuration name="ReaderTest.readerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReaderTest_readerTest - 2017.09.05 at 13h 15m 15s.xml">
+    <history-entry file="ReaderTest_readerTest - 2017.09.05 at 15h 23m 28s.xml">
       <configuration name="ReaderTest.readerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReaderTest_readerTest - 2017.09.05 at 14h 37m 51s.xml">
+    <history-entry file="ReaderTest_readerTest - 2017.09.05 at 15h 25m 51s.xml">
+      <configuration name="ReaderTest.readerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReaderTest_readerTest - 2017.09.05 at 15h 28m 23s.xml">
+      <configuration name="ReaderTest.readerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReaderTest_readerTest - 2017.09.05 at 15h 30m 13s.xml">
+      <configuration name="ReaderTest.readerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReaderTest_readerTest - 2017.09.05 at 15h 30m 18s.xml">
+      <configuration name="ReaderTest.readerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReaderTest_readerTest - 2017.09.05 at 15h 30m 22s.xml">
       <configuration name="ReaderTest.readerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="908" y="0" width="1019" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -783,17 +777,17 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13434453" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.312026" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3261105" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2549234" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2524377" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29927006" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22228146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -841,7 +835,7 @@
           <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="13" />
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1062,26 +1056,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kon/blats/files/read/ScannerReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="459">
+          <caret line="27" column="108" lean-forward="false" selection-start-line="27" selection-start-column="97" selection-end-line="27" selection-end-column="108" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kon/blats/files/read/ReaderTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/kon/blats/files/read/JavaSevenReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="128">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kon/blats/files/read/StreamReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="306">
+          <caret line="18" column="79" lean-forward="false" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/dev/tools/Java/jdk1.8.0_111/src.zip!/java/util/stream/IntStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="668" column="34" lean-forward="true" selection-start-line="668" selection-start-column="34" selection-end-line="668" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kon/blats/files/read/ReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="122" lean-forward="false" selection-start-line="26" selection-start-column="122" selection-end-line="26" selection-end-column="122" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
