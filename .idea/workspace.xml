@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e9e74272-3c37-4cfc-a3a2-feb54d3db1a8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/kon/blats/App.java" afterPath="$PROJECT_DIR$/src/main/java/kon/blats/App.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/kon/blats/files/read/ScannerReader.java" afterPath="$PROJECT_DIR$/src/main/java/kon/blats/files/read/ScannerReader.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -66,8 +66,20 @@
       <file leaf-file-name="ScannerReader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/kon/blats/files/read/ScannerReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReaderTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/kon/blats/files/read/ReaderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -89,7 +101,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/kon/blats/files/generate/FileGeneratorInASpecificSize.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+              <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,11 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GeneratorTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GeneratorTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/kon/blats/files/generate/GeneratorTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -169,6 +181,8 @@
         <option value="$PROJECT_DIR$/src/main/java/kon/blats/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/kon/blats/files/generate/FileGeneratorInASpecificSize.java" />
         <option value="$PROJECT_DIR$/src/main/java/kon/blats/files/generate/GeneratorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kon/blats/files/read/ScannerReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kon/blats/files/read/ReaderTest.java" />
       </list>
     </option>
   </component>
@@ -345,10 +359,6 @@
               <option name="myItemId" value="files" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -373,33 +383,7 @@
       <recent name="C:\Users\k.blatsoukas\IdeaProjects\commontasks" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GeneratorTest.generatorTest">
-    <configuration default="false" name="HibernateBuiltInValidator.testBuiltInValidationsViolationsOccurred" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="kon.blats.validation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="commontasks" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="kon.blats.validation" />
-      <option name="MAIN_CLASS_NAME" value="kon.blats.validation.HibernateBuiltInValidator" />
-      <option name="METHOD_NAME" value="testBuiltInValidationsViolationsOccurred" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.ReaderTest.readerTest">
     <configuration default="false" name="HibernateBuiltInValidator.testBuiltInValidationsCustomAnnotation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -485,6 +469,32 @@
       <option name="PACKAGE_NAME" value="kon.blats.files.generate" />
       <option name="MAIN_CLASS_NAME" value="kon.blats.files.generate.GeneratorTest" />
       <option name="METHOD_NAME" value="generatorTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ReaderTest.readerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="kon.blats.files.read.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="commontasks" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="kon.blats.files.read" />
+      <option name="MAIN_CLASS_NAME" value="kon.blats.files.read.ReaderTest" />
+      <option name="METHOD_NAME" value="readerTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -703,19 +713,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.HibernateBuiltInValidator.testBuiltInValidationsViolationsOccurred" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.HibernateBuiltInValidator.testBuiltInValidationsCustomAnnotation" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.FileUploaderTest.fileUploaderTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.App" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.GeneratorTest.generatorTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.HibernateBuiltInValidator.testBuiltInValidationsCustomAnnotation" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FileUploaderTest.fileUploaderTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.App" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.GeneratorTest.generatorTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ReaderTest.readerTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.GeneratorTest.generatorTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.App" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FileUploaderTest.fileUploaderTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.HibernateBuiltInValidator.testBuiltInValidationsCustomAnnotation" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.HibernateBuiltInValidator.testBuiltInValidationsViolationsOccurred" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ReaderTest.readerTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.GeneratorTest.generatorTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.App" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FileUploaderTest.fileUploaderTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.HibernateBuiltInValidator.testBuiltInValidationsCustomAnnotation" />
       </list>
     </recent_temporary>
   </component>
@@ -733,21 +743,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FileUploaderTest_fileUploaderTest - 2017.09.04 at 12h 07m 32s.xml">
-      <configuration name="FileUploaderTest.fileUploaderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FileUploaderTest_fileUploaderTest - 2017.09.04 at 12h 10m 53s.xml">
-      <configuration name="FileUploaderTest.fileUploaderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FileUploaderTest_fileUploaderTest - 2017.09.04 at 12h 12m 38s.xml">
-      <configuration name="FileUploaderTest.fileUploaderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FileUploaderTest_fileUploaderTest - 2017.09.04 at 12h 16m 52s.xml">
-      <configuration name="FileUploaderTest.fileUploaderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FileUploaderTest_fileUploaderTest - 2017.09.04 at 12h 17m 36s.xml">
-      <configuration name="FileUploaderTest.fileUploaderTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FileUploaderTest_fileUploaderTest - 2017.09.04 at 12h 19m 24s.xml">
       <configuration name="FileUploaderTest.fileUploaderTest" configurationId="JUnit" />
     </history-entry>
@@ -762,6 +757,21 @@
     </history-entry>
     <history-entry file="GeneratorTest_generatorTest - 2017.09.05 at 13h 04m 34s.xml">
       <configuration name="GeneratorTest.generatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReaderTest_readerTest - 2017.09.05 at 13h 11m 24s.xml">
+      <configuration name="ReaderTest.readerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReaderTest_readerTest - 2017.09.05 at 13h 11m 31s.xml">
+      <configuration name="ReaderTest.readerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReaderTest_readerTest - 2017.09.05 at 13h 13m 42s.xml">
+      <configuration name="ReaderTest.readerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReaderTest_readerTest - 2017.09.05 at 13h 13m 56s.xml">
+      <configuration name="ReaderTest.readerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReaderTest_readerTest - 2017.09.05 at 13h 15m 15s.xml">
+      <configuration name="ReaderTest.readerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1018,14 +1028,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kon/blats/files/read/ScannerReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testFile.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1047,7 +1049,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/kon/blats/files/generate/FileGeneratorInASpecificSize.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1057,10 +1059,28 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/kon/blats/files/generate/GeneratorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kon/blats/files/read/ScannerReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kon/blats/files/read/ReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
