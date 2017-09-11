@@ -1,9 +1,7 @@
 package kon.blats.files.generate;
 
 import org.junit.Test;
-
 import java.io.IOException;
-
 /**
  * Created by k.blatsoukas on 9/5/2017.
  */
