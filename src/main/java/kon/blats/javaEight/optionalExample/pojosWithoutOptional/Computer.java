@@ -1,4 +1,4 @@
-package kon.blats.javaEight.optionalExample;
+package kon.blats.javaEight.optionalExample.pojosWithoutOptional;
 
 import lombok.Getter;
 import lombok.Setter;

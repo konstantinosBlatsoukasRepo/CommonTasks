@@ -1,4 +1,4 @@
-package kon.blats.javaEight.optionalExample;
+package kon.blats.javaEight.optionalExample.pojosWithoutOptional;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -8,6 +8,6 @@ import lombok.Setter;
  */
 @Getter
 @Setter
-public class SoundCard {
-    private Usb usb;
+public class Usb {
+    private String version;
 }

@@ -1,4 +1,4 @@
-package kon.blats.javaEight.optionalExample;
+package kon.blats.javaEight.optionalExample.pojosWithOptional;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -8,6 +8,6 @@ import lombok.Setter;
  */
 @Getter
 @Setter
-public class Usb {
+public class UsbOptional {
     private String version;
 }
