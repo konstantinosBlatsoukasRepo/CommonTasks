@@ -38,7 +38,6 @@ public class HibernateBuiltInValidator {
         int totalViolations = violations.size();
         assertEquals(0, totalViolations);
     }
-
     @Test
     public void testBuiltInValidationsNoViolationsOccurred() throws ParseException {
         Person konstantinosBlatsoukas = new Person();
@@ -57,7 +56,6 @@ public class HibernateBuiltInValidator {
         int totalViolations = violations.size();
         assertEquals(0, totalViolations);
     }
-
     @Test
     public void testBuiltInValidationsViolationsOccurred() throws ParseException {
         Person konstantinosBlatsoukas = new Person();
@@ -76,6 +74,24 @@ public class HibernateBuiltInValidator {
         int totalViolations = violations.size();
         assertEquals(1, totalViolations);
     }
+    @Test
+    public void testBuiltInValidationsGroupedValidation() throws ParseException {
+        Person noNamePerson = new Person();
+        noNamePerson.setName("Mitsos");
+        noNamePerson.setAge(31);
+        noNamePerson.setSalary(1200);
+        SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy");
+        String myBirthDate = "10-03-2018";
+        Date date = dateFormat.parse(myBirthDate);
+        noNamePerson.setDateOfBirth(date);
+
+        ValidatorFactory validatorFactory = Validation.buildDefaultValidatorFactory();
+        Validator validator = validatorFactory.getValidator();
+        Set<ConstraintViolation<Person>> violations = validator.validate(noNamePerson, Nameless.class);
+        int totalViolations = violations.size();
+        assertEquals(1, totalViolations);
+    }
+
 }
 
 
