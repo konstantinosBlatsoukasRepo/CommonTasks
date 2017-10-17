@@ -1,6 +1,6 @@
 package kon.blats;
 
-import java.util.Collection;
+import java.util.ArrayList;
 import java.util.stream.IntStream;
 
 /**
@@ -12,6 +12,7 @@ public class UF {
     public UF(int N) {
         graph = new int[N];
         IntStream.rangeClosed(0, N-1).forEach(i -> graph[i] = i);
+        ArrayList<String> s = new ArrayList<>();
     }
 
     public boolean isConnected(int onePoint, int otherPoint) {

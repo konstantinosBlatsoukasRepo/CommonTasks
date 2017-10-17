@@ -1,3 +1,4 @@
+
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
@@ -124,7 +125,7 @@ public class Deque<Item> implements Iterable<Item> {
         private Node current = firstNode;
 
         public boolean hasNext() {
-            return current != null;
+            return current != null && current.item != null;
         }
 
         public void remove() {
@@ -139,5 +140,14 @@ public class Deque<Item> implements Iterable<Item> {
         }
     }
 
-    public static void main(String[] args) {}   // unit testing (optional)
+    public static void main(String[] args) {
+        Deque<String> strings = new Deque<>();
+        strings.addFirst("a");
+        strings.addFirst("a");
+        strings.addFirst("a");
+        strings.addFirst("a");
+        for(String string:strings) {
+            System.out.println(string);
+        }
+    }
 }
