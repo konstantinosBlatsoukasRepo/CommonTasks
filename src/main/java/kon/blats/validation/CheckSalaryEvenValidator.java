@@ -6,7 +6,7 @@ import javax.validation.ConstraintValidatorContext;
 /**
  * Created by k.blatsoukas on 9/1/2017.
  */
-public class CheckSalaryEvenValidator implements ConstraintValidator<CheckSalaryEven, Person>{
+public class CheckSalaryEvenValidator implements ConstraintValidator<CheckSalaryEven, Person> {
 
     @Override
     public void initialize(CheckSalaryEven constraintAnnotation) {
