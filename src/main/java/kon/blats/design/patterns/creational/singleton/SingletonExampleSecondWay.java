@@ -1,5 +1,7 @@
 package kon.blats.design.patterns.creational.singleton;
 
+import java.util.Objects;
+
 /**
  * Created by k.blatsoukas on 2/1/2018.
  */
@@ -15,6 +17,8 @@ public class SingletonExampleSecondWay {
   }
 
   public static void main(String[] args) {
+    Objects.requireNonNull(null);
+
     SingletonExampleSecondWay iAmTheOnlyInstance = SingletonExampleSecondWay.getInstance();
     System.out.println("iAmTheOnlyInstance = " + iAmTheOnlyInstance);
 
@@ -26,5 +30,7 @@ public class SingletonExampleSecondWay {
     } else {
       System.out.println("The above singleton doesn't works properly");
     }
+
+
   }
 }
