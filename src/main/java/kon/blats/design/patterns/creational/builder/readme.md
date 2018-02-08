@@ -4,11 +4,11 @@ When to use a builder pattern (According to Bloch):
 
   - Too many fields, some of them are optional
 
-One solution could the telescoping constructor, some drawbacks:
+One solution could be the telescoping constructor, some drawbacks:
 
   - Difficult to maintain
   - hard to read it
-  - does not scales (i.e. in case of a new filed, a lot of writing is required)
+  - does not scales (i.e. in case of a new field, a lot of writing is required)
 
 A second one could be a JavaBean (i.e. private fields along with getters and setters)
 Drawbacks in this case:
