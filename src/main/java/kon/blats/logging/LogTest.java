@@ -8,10 +8,12 @@ import org.apache.logging.log4j.Logger;
  */
 public class LogTest {
 
-  public static final Logger logger = LogManager.getLogger();
+  public static final Logger logger = LogManager.getLogger("kostas");
 
   public static void main(String[] args) {
     logger.error("Hello from error level");
+    logger.debug("my name is Kostas");
+    logger.info("info stuff");
     TestLog.usingLogTestLogger();
   }
 }

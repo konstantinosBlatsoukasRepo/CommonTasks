@@ -1,5 +1,8 @@
 package kon.blats.common.methods;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * Created by k.blatsoukas on 2/6/2018.
  */
@@ -22,6 +25,15 @@ public final class PhoneNumber implements Cloneable {
   }
 
   public static void main(String[] args) {
+
+
+    Map<String, Double> cummulativeEnergies = new HashMap<>();
+
+    Double k = cummulativeEnergies.get("a");
+    if (k == null) {
+      System.out.println("A null number fetched");
+    }
+
     PhoneNumber firstPhoneNumber = new PhoneNumber((short)12, (short)13, (short)1);
     System.out.println(firstPhoneNumber.hashCode());
 

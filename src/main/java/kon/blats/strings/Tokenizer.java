@@ -11,11 +11,12 @@ public class Tokenizer {
 
   @Test
   public void tokenizerExample() {
-    StringTokenizer stringTokenizer = new StringTokenizer("Konstantinos::Mitsos","::");
+    StringTokenizer stringTokenizer = new StringTokenizer("(4, 5)",",");
+    System.out.println(stringTokenizer.nextToken().substring(1));
 
     while(stringTokenizer.hasMoreTokens()) {
       String currentToken = stringTokenizer.nextToken();
-      System.out.println("currentToken = " + currentToken);
+      System.out.println("currentToken = " + currentToken.substring(0, currentToken.length() - 1));
     }
 
   }
